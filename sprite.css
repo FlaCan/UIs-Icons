@@ -1,5 +1,6 @@
 body {
-    color: #039;
+    color: #038;
+    background-color: rgba(0, 0, 17, 0.025);
     font-family: Roboto, Arial, Helvetica, sans-serif;
   
 }
@@ -29,71 +30,21 @@ li:hover {
     color: #08F;
 }
 
-
-/*svg parent*/
-
-.wrap {
-    fill: currentColor;
-}
-
-
-.wrap.disabled {
-    color: lightslategray;
-    cursor: text;
-}
-
 svg.icon {
-    position: relative;
-    margin-right: 12px;
-}
-
-svg.icon.small {
-    width: 16px;
-    height: 16px;
-}
-
-svg.icon.regular {
     width: 24px;
     height: 24px;
+    fill: currentColor;
+    margin-right: 12px;
+    position: relative;
 }
 
-svg.icon.medium {
-    width: 36px;
-    height: 36px;
-}
-
-svg.icon.large {
-    width: 48px;
-    height: 48px;
-}
-
-svg.icon.big {
-    width: 60px;
-    height: 60px;
-}
-
-
-.action, .object, .notification {
+.description {
     font-size: 14px;
     font-weight: 400;
     font-variant-caps: all-small-caps;
     position: relative;  
     top: -7px;
 }
-
-/*.object {
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;  
-    top: -13px;
-}
-
-.notification {
-    font-size: 14px;
-    font-weight: 400;
-    position: relative;  
-    top: -6px;
-}*/
 
 /* 
 Only Firefox can target shadow root paths with classes (below), 
