@@ -30,7 +30,7 @@ li:hover {
     color: #08F;
 }
 
-svg.icon {
+svg {
     width: 24px;
     height: 24px;
     fill: currentColor;
