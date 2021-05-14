@@ -34,6 +34,8 @@ ul {
 
   
 li {
+    position: relative;
+    padding-right: 24px;
     color: #039;
     cursor: pointer;
     font-size: 14px;
@@ -58,9 +60,21 @@ li.no-use {
 
 
 li.deprec {
-    color: rgba(255, 0, 0, 0.4);
+    color: rgba(102, 77, 77, 0.4);
     text-decoration: line-through;
 }
+
+li.new::before {
+  color: rgb(127, 127, 127);
+  content: "☞";
+  font-weight: 900;
+  font-size: 48px;
+  position: absolute;
+  left: -42px;
+  top: -6px;;
+}
+
+
 
 
 svg {
@@ -71,6 +85,7 @@ svg {
   position: relative;
   }
 
+  
 
 .change {
   color: rgb(255, 0, 0);
