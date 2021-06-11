@@ -2,6 +2,7 @@ body {
   color: #038;
   background-color: rgba(0, 0, 17, 0.03);
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  padding: 40px;
   }
 
 .orange {
@@ -64,7 +65,7 @@ li.deprec {
     text-decoration: line-through;
 }
 
-li.new::before {
+/* li.new::before {
   color: rgb(127, 127, 127);
   content: "☞";
   font-weight: 900;
@@ -72,7 +73,7 @@ li.new::before {
   position: absolute;
   left: -42px;
   top: -6px;;
-}
+} */
 
 
 

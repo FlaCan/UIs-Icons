@@ -1,0 +1,76 @@
+body {
+    color: #038;
+    background-color: rgba(0, 0, 17, 0.025);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  
+}
+
+header {
+    padding: 18px;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0;
+    padding: 18px;
+}
+li {
+    margin-bottom: 12px;
+    color: #039;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #08F;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    margin-right: 12px;
+    position: relative;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    font-variant-caps: all-small-caps;
+    position: relative;  
+    top: -7px;
+}
+
+.deprecated {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    font-variant-caps: all-small-caps;
+    position: relative;  
+    top: -7px;
+    text-decoration: line-through;
+}
+
+/* 
+Only Firefox can target shadow root paths with classes (below), 
+ergo I shall remove classes from paths to avoid different
+browsers behaviors. Remember to change Illustrator workflow too.
+
+I can then apply a fill attribute to the path whose colour 
+we want to be persistent.
+
+
+.element {
+    fill: #09f;
+}
+
+.specifier {
+    fill: #09f;
+}
+
+*/
