@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" href="flavicon-8.png" />
   <link rel="stylesheet" href="style.css" >
   <title>SVG Cheat Sheet</title>
+  <script src="script.js" defer></script>
 </head>
 <body>
   
@@ -136,14 +137,5 @@
     </ul>
 
   </main>
-
-  <script>
-    const total = document.querySelectorAll("li svg");
-    const number = total.length;
-    const stringNumber = number.toString();
-    const textNode = document.createTextNode(stringNumber);
-    const numberParent = document.querySelector(".count");
-    numberParent.appendChild(textNode);
-  </script>
 </body>
 </html>
