@@ -1,17 +1,14 @@
 {
   "name": "svg-sprite-generator",
   "version": "1.0.0",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "optimize": "svgo -f svg/raw -o svg/opt --disable=mergePaths --disable=convertPathData",
-    "generate": "spritesh --input svg/opt --output sprite.svg"
+    "optimize": "svgo -f svg/raw -o svg/opt",
+    "generate": "node scripts/build-sprite.mjs",
+    "build": "npm run optimize && npm run generate"
   },
   "author": "fc",
   "license": "ISC",
-  "dependencies": {
-    "spritesh": "^1.2.1",
-    "svgo": "^1.3.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlaCan/UIs-Icons.git"
@@ -20,5 +17,8 @@
     "url": "https://github.com/FlaCan/UIs-Icons/issues"
   },
   "homepage": "https://github.com/FlaCan/UIs-Icons#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "svgo": "^4.0.2"
+  }
 }
