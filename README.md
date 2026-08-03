@@ -41,11 +41,8 @@ Five prefixed families, all 24×24, all `fill: currentColor` so they inherit tex
      exported path geometry is preserved exactly as drawn.
    - `npm run generate` — rebuilds `sprite.svg` from `svg/opt`. Every icon must
      carry a `viewBox`; the script fails loudly if one doesn't.
-3. Add an `<li>` to `index.html`. Optionally tag it `class="new"` (adds a ☞
-   marker) or a colour class (`orange`, `light-blue`, `green`, `red`, `off`) to
-   preview tinting.
-4. Open with Live Server (the VS Code setting pins port 5501). `<use>` against an
-   external sprite will not resolve over `file://`, so a server is required.
+3. Add an `<li>` to `index.html`. Optionally give its `<svg>` a colour class
+   (`orange`, `light-blue`, `green`, `red`, `off`) to preview tinting.
 
 ## Notes
 

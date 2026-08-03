@@ -31,16 +31,6 @@ li:hover {
     color: #08F;
     }    
 
-li.new::before {
-  color: rgb(127, 127, 127);
-  content: "☞";
-  font-weight: 900;
-  font-size: 48px;
-  position: absolute;
-  left: -42px;
-  top: -6px;;
-}
-
 svg {
   width: 24px;
   height: 24px;
