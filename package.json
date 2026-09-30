@@ -19,6 +19,6 @@
   "homepage": "https://github.com/FlaCan/UIs-Icons#readme",
   "description": "",
   "devDependencies": {
-    "svgo": "^4.0.2"
+    "svgo": "^4.1.0"
   }
 }
