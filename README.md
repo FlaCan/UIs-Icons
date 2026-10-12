@@ -52,7 +52,3 @@ Five prefixed families, all 24×24, all `fill: currentColor` so they inherit tex
   pulled in a vulnerable `cheerio@0.20` tree. `scripts/build-sprite.mjs`
   reproduces its output byte for byte, so the only remaining dependency is svgo
   and the repo audits clean.
-- Some `svg/raw` files still carry leftover Illustrator artboard rectangles
-  (`<path fill="none" stroke="#000" d="M-444-12H36V468H-444z"/>` and similar).
-  They're invisible at 24×24 but do add bytes to the sprite — worth stripping
-  next time those icons are re-exported.
